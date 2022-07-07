@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lalezar&display=swap');
+
+body{
+    background-color: rgb(84, 85, 86);
+}
+p{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: rgb(248, 246, 246);
+    text-decoration: underline rgb(208, 41, 169);
+    font-size: 29pt;
+    
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(248, 246, 246);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+h4{
+    color: rgb(208, 41, 169);
+}
+
+
+.container{
+    margin-top: 1cm;
+    padding-bottom: 2pt;
+}
+
+a{
+    color: rgb(248, 246, 246);
+    font-size: 14pt;
+    
+    
+}
+
+.container-form{
+    margin-top: 2cm;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    text-align: center;
+    color: rgb(248, 246, 246);
+    border: 2pt rgb(208, 41, 169) solid;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
