@@ -4,10 +4,11 @@ include("pdo.php");
 if(isset($_POST["id"]) && $_POST["id"] == ""){
     $unos = $db->query("
     INSERT INTO eventi
-    (naslov, datum)
+    (naslov, datum, datum_dogadjaja)
     VALUES
     ('" . $_POST["naslov"] . "',
-    '" . $_POST["datum"] . "')
+    '" . $_POST["datum"] . "',
+    '" . $_POST["datum_dogadjaja"] . "')
     ");
 
     header("Location:event.php");
@@ -17,7 +18,8 @@ if(isset($_POST["id"]) && $_POST["id"] > 0){
     $upit = $db->query("
     UPDATE eventi SET
     naslov = '" . $_POST["naslov"] . "',
-    datum = '" . $_POST["datum"] . "'
+    datum = '" . $_POST["datum"] . "',
+    datum_dogadjaja = '" . $_POST["datum_dogadjaja"] . "'
     WHERE id = " . $_POST["id"]
     );
     header("Location:eventi.php");

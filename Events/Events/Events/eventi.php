@@ -17,7 +17,8 @@ foreach ($arrayText as $keyText) {
   <div class="col-6 col-md-4"></div>
   <div class="col-6 col-md-4"><div class="alert alert-dark" role="alert">
   <h3><?php echo $keyText["naslov"];?></h3>
-    <h4><?php echo $keyText["datum"];?></h4>
+    <h4>Datum događaja: <?php echo $keyText["datum_dogadjaja"];?></h4>
+    <h6>Datum objave: <?php echo $keyText["datum"];?></h6>
 </div>  </div>
   <div class="col-6 col-md-4"></div>
 </div>

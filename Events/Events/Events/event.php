@@ -20,7 +20,8 @@ foreach ($arrayText as $keyText) {
   <div class="col-sm-8">
   <div class="alert alert-dark" role="alert">
   <h3><?php echo $keyText["naslov"];?></h3>
-    <h4><?php echo $keyText["datum"];?></h4>
+    <h4><?php echo $keyText["datum_dogadjaja"];?></h4>
+    <h5><?php echo $keyText["datum"];?></h5>
 </div>  
   
   

@@ -9,11 +9,15 @@ if(isset($_GET["id"]) && $_GET["id"] > 0){
 	$eventi = $upit->fetchAll();
 	$id = $_GET["id"];
 	$naslov = $eventi[0]["naslov"];
+	$datum_dogadjaja = $eventi[0]["datum_dogadjaja"];
 	$datum = $eventi[0]["datum"];
 }else{
 	$id = "";
 	$naslov = "";
+	$datum_dogadjaja = "";
 	$datum = "";
+	
+
 
 }
 ?>
@@ -30,7 +34,9 @@ if(isset($_GET["id"]) && $_GET["id"] > 0){
 	<form method="post" action="eventi_sql.php">
 <input type="hidden" name="id" value="<?php echo $id;?>"> 
 Naslov teksta: <input type="text" name="naslov" value="<?php echo $naslov;?>"><br><br>
-Godina objave: <input type="date" name="datum" value="<?php echo $datum;?>"><br><br>
+Datum događaja: <input type="date" name="datum_dogadjaja" value="<?php echo $datum_dogadjaja;?>"><br><br>
+Datum objave: <input type="date" name="datum" value="<?php echo $datum;?>"><br><br>
+
 
 
 <input type="submit" name="submit" value="Objavi" class="btn btn-light">
