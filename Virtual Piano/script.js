@@ -13,11 +13,11 @@ document.addEventListener("keydown", event => {
         "KeyY",
         "KeyU"];
 
-    if (whiteKeys.includes(event.code)) {
+    if (whiteKeys.indexOf(event.code)) {
         let audio = new Audio("white_keys/" + event.key.toUpperCase() + ".mp3");
         audio.play();
         console.log(`The '${event.key}' key is pressed.`)
-    } else if (blackKeys.includes(event.code)) {
+    } else if (blackKeys.indexOf(event.code)) {
         let audio = new Audio("black_keys/" + event.key.toUpperCase() + ".mp3");
         audio.play();
         console.log(`The '${event.key}' key is pressed.`)
