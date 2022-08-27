@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Virtual Piano</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual piano</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class= "keys white-keys">
-            <kbd>A</kbd>
-            <kbd>S</kbd>
-            <kbd>D</kbd>
-            <kbd>F</kbd>
-            <kbd>G</kbd>
-            <kbd>H</kbd>
-            <kbd>J</kbd>
-        </div>
-        <div class="keys black-keys">
-            <kbd>W</kbd>
-            <kbd>E</kbd>
-            <kbd>T</kbd>
-            <kbd>Z</kbd>
-            <kbd>U</kbd>
-        </div>
+    <!-- Tipke -->
+    <div class="piano">
+        <div data-note="A" class="key white"></div>
+        <div data-note="W" class="key black"></div>
+
+        <div data-note="S" class="key white"></div>
+        <div data-note="E" class="key black"></div>
+
+        <div data-note="D" class="key white"></div>
+       
+
+        <div data-note="F" class="key white"></div>
+        <div data-note="T" class="key black"></div>
+
+        <div data-note="G" class="key white"></div>
+        <div data-note="Z" class="key black"></div>
+   
+
+        <div data-note="H" class="key white"></div>
+        <div data-note="U" class="key black"></div>
+
+        <div data-note="J" class="key white"></div>
     </div>
 
-<footer>
-    <script src="script.js"></script>
-</footer>
+    <!-- Audio za tipke -->
+    <audio id="A" src="keys/A.mp3"></audio>
+    <audio id="W" src="keys/W.mp3"></audio>
+    <audio id="S" src="keys/S.mp3"></audio>
+    <audio id="E" src="keys/E.mp3"></audio>
+    <audio id="D" src="keys/D.mp3"></audio>
+    <audio id="F" src="keys/F.mp3"></audio>
+    <audio id="T" src="keys/T.mp3"></audio>
+    <audio id="G" src="keys/G.mp3"></audio>
+    <audio id="Z" src="keys/Z.mp3"></audio>
+    <audio id="H" src="keys/H.mp3"></audio>
+    <audio id="U" src="keys/U.mp3"></audio>
+    <audio id="J" src="keys/J.mp3"></audio>
+    
 </body>
 </html>
