@@ -1,14 +1,16 @@
 # WebDev
 
 <h2> Events </h2>
+HTML, PHP, Bootstrap
 
-PHP aplikacija za objavljivanje, kreiranje i izmjenu događaja.
+Web stranica za objavljivanje, kreiranje i izmjenu događaja.
 1. Rad s bazom podataka
 2. Create, rename, update i delete 
 3. Responzivan dizajn
 4. Bootstrap
 
 <h2>Virtual Piano</h2>
+HTML, CSS, SCSS, SASS, JavaScript
 
 Web stranica za sviranje klavira.
 
