@@ -23,6 +23,6 @@ Poslije
 6. Switch petlja je zamjenjena s dva niza, Query Selectorima, Event listenerima, if-om, foreach-om i funkcijom.
 7. Vidi se tipka koja je pritisnuta
 8. Kada se tipka ponovo stisne, zvuk će kreniti od početka
-9. Responzivan dizajn
+9. Prilagođen dizajn na širinu zaslona od 250px i 680px
 
 
