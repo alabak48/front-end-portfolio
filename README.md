@@ -2,9 +2,11 @@
 
 Events
 
-php aplikacija za objavljivanje događaja.
+PHP aplikacija za objavljivanje, kreiranje i izmjenu događaja.
 1. Rad s bazom podataka
 2. Create, rename, update i delete 
+3. Responzivan dizajn
+4. Bootstrap
 
 Virtual Piano
 
