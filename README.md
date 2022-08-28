@@ -24,5 +24,6 @@ Poslije
 7. Vidi se tipka koja je pritisnuta
 8. Kada se tipka ponovo stisne, zvuk će kreniti od početka
 9. Prilagođen dizajn na širinu zaslona od 250px i 680px
+10. CSS minification
 
 
