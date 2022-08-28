@@ -1,6 +1,6 @@
 # WebDev
 
-Events
+<h2> Events </h2>
 
 PHP aplikacija za objavljivanje, kreiranje i izmjenu događaja.
 1. Rad s bazom podataka
@@ -8,7 +8,7 @@ PHP aplikacija za objavljivanje, kreiranje i izmjenu događaja.
 3. Responzivan dizajn
 4. Bootstrap
 
-Virtual Piano
+<h2>Virtual Piano</h2>
 
 Web stranica za sviranje klavira.
 
