@@ -1,6 +1,14 @@
 # WebDev
 
+Events
+
+php aplikacija za objavljivanje događaja.
+1. Rad s bazom podataka
+2. Create, rename, update i delete 
+
 Virtual Piano
+
+Web stranica za sviranje klavira.
 
 Prije
 
