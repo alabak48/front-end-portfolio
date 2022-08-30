@@ -1,6 +1,18 @@
 # WebDev
 
-Virtual Piano
+<h2> Events </h2>
+HTML, PHP, Bootstrap
+
+Web stranica za objavljivanje, kreiranje i izmjenu događaja.
+1. Rad s bazom podataka
+2. Create, rename, update i delete 
+3. Responzivan dizajn
+4. Bootstrap
+
+<h2>Virtual Piano</h2>
+HTML, CSS, SCSS, Sass, JavaScript
+
+Web stranica za sviranje klavira.
 
 Prije
 
@@ -19,7 +31,7 @@ Poslije
 2. Sviranje s malim slovima
 3. Sviranje s velikim slovima
 4. Sviranje s klikom miša
-5. Za dizajn je korišten CSS kompajliran u SCSS i SASS
+5. Za dizajn je korišten CSS kompajliran u SCSS i Sass
 6. Switch petlja je zamjenjena s dva niza, Query Selectorima, Event listenerima, if-om, foreach-om i funkcijom.
 7. Vidi se tipka koja je pritisnuta
 8. Kada se tipka ponovo stisne, zvuk će kreniti od početka
