@@ -1,0 +1,19 @@
+.nav-bar li{
+    display: inline;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-bar ol{
+    float: right;
+    display: inline;
+}
+.left-container{
+    margin-top: 200px;
+    float: left;
+}
+
+.right-container{
+    margin-top: 200px;
+    margin-left: 50vh
+}
