@@ -14,7 +14,6 @@ ul{
     background-size: cover;
     background-position: center;
     align-items: center;
-    background-color: red;
     
 }
 .nav-bar li{
@@ -35,7 +34,6 @@ ul{
     margin-left: 14vw;
     float: left;
     text-align: center;
-    background-color: blue;
 }
 
 .about{
@@ -43,7 +41,6 @@ ul{
     margin-left: 120vh;
     width: 400px;
     height: 400px;
-    background-color: aqua;
 }
 
 
@@ -57,9 +54,7 @@ h3{
     font-size: 20pt;
 }
 
-.project{
-  background-color:purple;
-}
+
 
 .project p {
     text-align: center;
@@ -177,7 +172,6 @@ img {vertical-align: middle;}
   margin-left: 25vh;
   width: 450px;
   height: 300px;
-  background-color: blue;
   text-align: center;
   text-decoration: none;
   
@@ -185,7 +179,6 @@ img {vertical-align: middle;}
 
 .contact .right-bar{
   display: inline-block;
-  background-color: red;
   margin-left: 40vh;
   width: 450px;
   height: 300px;
