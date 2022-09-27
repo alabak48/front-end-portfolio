@@ -7,17 +7,32 @@ body{
 .box{
     height: 100vh;
     width: 100vw;
-    align-items: center;
     background-image: url(interior.jpg);
+    justify-content: center;
     background-size: cover;
     background-position: center;
     display: flex;
+    justify-items: center;
+    align-items: center;
     
 }
 
+.nav-bar ul{
+  background-color: #a7a0a0;
+  margin: 0;
+  padding: 10pt;
+}
+.nav-bar li{
+  display: inline;
+}
 
-
-
+.nav-bar a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10pt;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
 h2{
     font-size: 30pt;
 }
