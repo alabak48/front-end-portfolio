@@ -214,3 +214,36 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
+/* Button */
+
+
+.btn{
+position: relative;
+width: 50px;
+height: 50px;
+border: none;
+background: #79AFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 360px;
+color: white;
+font-size: 14pt;
+}
+
+.btn:hover {
+  position: relative;
+width: 50px;
+height: 50px;
+border: none;
+background: #64676c;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 360px;
+color: white;
+font-size: 14pt;
+}
+
+.lamp{
+  margin-top: 60vh;
+}
+
+
+
