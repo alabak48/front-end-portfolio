@@ -18,17 +18,30 @@ body{
 }
 
 .about{
-  width: 550px;
+  width: 350px;
+ 
 }
 
+
+
+
 .home{
-  width: 650px;
+  width: 700px;
+}
+
+.nav-bar{
+  position: absolute;
+  text-align: center;
+  margin-left: 25vw;
+  width: 1000px;
+  padding: 30pt;
 }
 
 .nav-bar ul{
-  background-color: hwb(0 7% 41%);
+  background-color: #DCD4C9;
+  position: relative;
   margin: 0;
-  padding: 10pt;
+  padding: 30pt;
 }
 .nav-bar li{
   display: inline;
@@ -36,13 +49,19 @@ body{
 
 .nav-bar a{
   text-decoration: none;
-  color: aliceblue;
+  color: #101010;
   padding: 10pt;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 15pt;
+  
+  pt;
 }
-h2{
-    font-size: 30pt;
+h1{
+    font-size: 40pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f2f2f2;
+    visibility: hidden;
 }
 
 h3{
@@ -66,7 +85,7 @@ h3{
 
 .contact{
     margin-top: 20vh;
-    background-color: rgb(183, 145, 112);
+    background-color: #DCD4C9;
     color: rgb(255, 250, 246);
     width: 100%;
     height: 330pt;
