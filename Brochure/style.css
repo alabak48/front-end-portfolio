@@ -3,45 +3,18 @@ body{
     background-color: rgb(250, 250, 250);
 }
 
-ul{
-    margin: 0%;
-    margin-top: 3vh;
-}
 
 .box{
     height: 100vh;
     width: 100vw;
+    align-items: center;
+    background-image: url(interior.jpg);
     background-size: cover;
     background-position: center;
-    align-items: center;
+    display: flex;
     
 }
-.nav-bar li{
-    display: inline;
-    padding: 20pt;
-    margin-left: 4vw;   
-}
 
-.nav-bar a {
-    text-decoration: none;
-    color: black;
-    font-size: 14pt;
-
-}
-.home{
-    width: 20vw;
-    margin-top: 250px;
-    margin-left: 14vw;
-    float: left;
-    text-align: center;
-}
-
-.about{
-    margin-top: 200px;
-    margin-left: 120vh;
-    width: 400px;
-    height: 400px;
-}
 
 
 
