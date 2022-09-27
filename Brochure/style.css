@@ -17,8 +17,16 @@ body{
     
 }
 
+.about{
+  width: 550px;
+}
+
+.home{
+  width: 650px;
+}
+
 .nav-bar ul{
-  background-color: #a7a0a0;
+  background-color: hwb(0 7% 41%);
   margin: 0;
   padding: 10pt;
 }
