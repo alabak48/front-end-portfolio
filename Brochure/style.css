@@ -72,6 +72,20 @@ h3{
     height: 330pt;
 }
 
+.contact .left-bar a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .right-bar a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+
 * {box-sizing: border-box}
 .mySlides {display: none}
 img {vertical-align: middle;}
